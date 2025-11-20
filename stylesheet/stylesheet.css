@@ -22,3 +22,7 @@ footer {
 .card {
   border-radius: 12px;
 }
+.contact-link {
+  color: #0a58ca; /* darker Bootstrap blue */
+  font-weight: 500;
+}
