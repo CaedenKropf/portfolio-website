@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: Investment Management Project #3</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheet/stylesheet.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="../index.html">My Portfolio</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header class="py-5 text-center">
+      <div class="container">
+        <h1 class="fw-bold">Investment Management Project</h1>
+        <p class="lead">
+          A multi-factor analysis including CAPM, Fama-French models, and bond
+          pricing.
+        </p>
+      </div>
+    </header>
+
+    <!-- PDF VIEWER -->
+    <div class="container my-5">
+      <h3 class="mb-4">Project Document</h3>
+
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="investment-management-project.pdf"
+          title="Investment Management Project"
+          style="border: 1px solid #ccc; border-radius: 8px"
+        >
+        </iframe>
+      </div>
+
+      <p class="mt-3">
+        If the embedded viewer does not load, you can
+        <a href="investment-management-project.pdf" target="_blank"
+          >open the PDF directly</a
+        >.
+      </p>
+    </div>
+    <!-- PROJECT SUMMARY -->
+    <div class="container mb-5">
+      <h3 class="mt-5 mb-3">Project Summary</h3>
+
+      <p>
+        This project applies advanced investment management techniques to
+        evaluate asset pricing models, idiosyncratic risk, factor exposures, and
+        bond valuation. Using CAPM, the Fama-French Five-Factor Model, and yield
+        curve interpolation methods, this project analyzes both equity and
+        fixed-income investments to assess return drivers, risk decomposition,
+        and pricing accuracy.
+      </p>
+
+      <h4 class="mt-4">Key Components</h4>
+      <ul>
+        <li>
+          <strong>Idiosyncratic Volatility:</strong> Decomposition of stock
+          returns using variance structures to identify how much risk is
+          diversifiable.
+        </li>
+        <li>
+          <strong>Multi-Factor Modeling:</strong> Implementation of the
+          Fama–French Five-Factor Model, including covariance, correlation,
+          alpha estimation, and factor load interpretations.
+        </li>
+        <li>
+          <strong>Investment Recommendations:</strong> Stock selection based on
+          five-factor alpha performance and relative risk levels.
+        </li>
+        <li>
+          <strong>Bond Pricing:</strong> Use of the GSW and LW term structure
+          methods to price long-term bonds and compare valuation differences.
+        </li>
+        <li>
+          <strong>Yield Curve Interpretation:</strong> Analysis of curve shape
+          (humps, slopes, sensitivity) and its impact on investment decisions.
+        </li>
+      </ul>
+
+      <h4 class="mt-4">Skills Demonstrated</h4>
+      <ul>
+        <li>Equity return modeling and risk attribution</li>
+        <li>Factor-based asset pricing</li>
+        <li>Excel modeling / quantitative analysis</li>
+        <li>Bond valuation & yield curve construction</li>
+        <li>Interpreting multi-factor regression outputs</li>
+      </ul>
+
+      <h4 class="mt-4">Reflection</h4>
+      <p>
+        This project strengthened my ability to analyze return drivers across
+        different asset classes and apply quantitative models to real financial
+        data. It also reinforced the importance of understanding how risk,
+        factor exposure, and term structures affect pricing and portfolio
+        construction.
+      </p>
+
+      <a href="../index.html#projects" class="btn btn-primary mt-3"
+        >← Back to Projects</a
+      >
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-3">
+      <p class="mb-0">© 2025 Caeden Kropf. All rights reserved.</p>
+      <a href="../privacy.html">Privacy Policy</a> |
+      <a href="../tac.html">Terms & Conditions</a> |
+      <a href="../cookie-policy.html">Cookie Policy</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
