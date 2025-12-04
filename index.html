@@ -58,12 +58,13 @@
       content="https://caedenkropf.com/tippie-arch.jpg"
     />
     <meta property="og:url" content="https://caedenkropf.com" />
+    <link rel="stylesheet" href="cookie-popup.css" />
   </head>
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+        <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -98,6 +99,12 @@
         <h1 class="display-4 fw-bold">Caeden Kropf</h1>
         <p class="lead">Finance | Business Analytics</p>
         <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+        <a
+          href="Caeden-Kropf-Resume.pdf"
+          class="btn btn-light mt-3"
+          target="_blank"
+          >Download Resume</a
+        >
       </div>
     </header>
 
@@ -225,8 +232,21 @@
     <!-- FOOTER -->
     <footer class="text-center">
       <p class="mb-0">© 2025 Caeden Kropf. All rights reserved.</p>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="tac.html">Terms & Conditions</a>
+      <a href="cookie-policy.html">Cookie Policy</a>
     </footer>
-
+    <div id="cookie-popup">
+      <p>
+        By using this site you agree to the storing of cookies on your device to
+        enhance site navigation and to analyze site usage. Learn more about our
+        <a href="cookie-policy.html">cookie policy</a>.
+      </p>
+      <p>
+        <button id="accept-cookies">Accept</button>
+      </p>
+    </div>
+    <script src="cookie-popup.js"></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
