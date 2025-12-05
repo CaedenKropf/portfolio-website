@@ -28,7 +28,7 @@
 
 #accept-cookies {
   font-family: "Roboto", monospace;
-  background-color: #fff;
+  background-color: #0a58ca;
   color: #333;
   border: none;
   padding: 5px 10px;
@@ -37,6 +37,6 @@
 }
 
 #accept-cookies:hover {
-  background-color: #0a58ca;
+  background-color: #084298;
   transition: 0.4s;
 }
