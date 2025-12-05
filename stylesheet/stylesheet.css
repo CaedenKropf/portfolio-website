@@ -26,3 +26,14 @@ footer {
   color: #0a58ca; /* darker Bootstrap blue */
   font-weight: 500;
 }
+
+footer a {
+  color: #0a58ca; /* strong blue */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #06357a; /* darker blue for hover contrast */
+  text-decoration: underline;
+}
