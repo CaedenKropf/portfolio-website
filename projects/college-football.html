@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: College Football Attendance & Enrollment Analysis</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheet/stylesheet.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="../index.html">My Portfolio</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="py-5 text-center">
+      <div class="container">
+        <h1 class="fw-bold">
+          College Football Attendance & Enrollment Analysis
+        </h1>
+        <p class="lead">
+          Exploring how attendance patterns relate to university size,
+          conference affiliation, and team performance.
+        </p>
+      </div>
+    </header>
+
+    <!-- SHORT PROJECT SUMMARY -->
+    <div class="container my-5">
+      <h3 class="mb-3">Project Overview</h3>
+      <p>
+        This project analyzes Division I college football attendance using
+        institutional enrollment data, win percentage, conference membership,
+        and team branding metadata. By merging attendance data from CFBStats
+        with demographic information from IPEDS, the study examines whether
+        university size, gender composition, or athletic classification help
+        explain the significant variation in home-game turnout.
+      </p>
+
+      <p>
+        Visualizations—including scatterplots with team logos, enrollment violin
+        plots, bar charts, and conference-level comparisons—show that while
+        enrollment and winning percentage correlate with attendance, conference
+        identity and long-term football culture are far stronger drivers. Power
+        Five teams consistently outperform their structural predictors, while
+        Group of Five teams exhibit limited attendance variation regardless of
+        size.
+      </p>
+
+      <h4 class="mt-4">GitHub Repository</h4>
+      <p>
+        Full code, data cleaning steps, visualizations, and notebook files are
+        available here:
+      </p>
+      <a
+        href="https://github.com/CaedenKropf/college-football-attendance"
+        target="_blank"
+        class="btn btn-primary btn-sm"
+      >
+        View GitHub Repository
+      </a>
+    </div>
+
+    <!-- PDF VIEWER -->
+    <div class="container my-5">
+      <h3 class="mb-3">Project Report</h3>
+
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="college-football-report.pdf"
+          title="College Football Attendance Report"
+          style="border: 1px solid #ccc; border-radius: 8px"
+        ></iframe>
+      </div>
+
+      <p class="mt-3">
+        If the embedded viewer does not load, you can
+        <a href="college-football-report.pdf" target="_blank"
+          >open the PDF directly</a
+        >.
+      </p>
+    </div>
+
+    <!-- BACK BUTTON -->
+    <div class="container mb-5">
+      <a href="../index.html#projects" class="btn btn-primary"
+        >← Back to Projects</a
+      >
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-4">
+      <p class="mb-0">© 2025 Caeden Kropf. All rights reserved.</p>
+      <a href="../privacy.html">Privacy Policy</a> |
+      <a href="../tac.html">Terms & Conditions</a> |
+      <a href="../cookie-policy.html">Cookie Policy</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
